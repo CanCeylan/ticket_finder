@@ -6,7 +6,9 @@ from random import randint
 from slackclient import SlackClient
 
 SLACK_TOKEN = "xoxp-3361645106-60725169143-91094041379-72566246ce1b2fbd1dc0541b6ac4acd1"
+print SLACK_TOKEN
 SLACK_CHANNEL = "#ticket-swap"
+print SLACK_CHANNEL
 # urls = ['https://www.ticketswap.com/event/nicolas-jaar/681833ee-39ed-457d-b9a0-682bece0bdc4', 'https://www.ticketswap.com/event/four-tet-floating-points-ade/099895ad-cd05-435b-b34b-c099f64c466d']
 urls = ['https://www.ticketswap.com/event/nicolas-jaar/681833ee-39ed-457d-b9a0-682bece0bdc4']
 queries = 0

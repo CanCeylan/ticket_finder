@@ -7,7 +7,7 @@ from slackclient import SlackClient
 import os
 
 SLACK_TOKEN = os.environ.get("SLACK_TOKEN")
-print SLACK_TOKEN
+SLACK_CHANNEL = os.environ.get("SLACK_CHANNEL")
 
 urls = ['https://www.ticketswap.nl/event/cigarettes-after-sex/b3171998-7d0c-415a-9390-74ba51a3a38b']
 queries = 0
